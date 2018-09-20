@@ -1,1 +1,1 @@
-Selection sort in singly linked list.
+Selection sort on singly linked list.
