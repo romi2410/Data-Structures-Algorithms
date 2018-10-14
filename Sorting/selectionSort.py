@@ -1,9 +1,10 @@
 '''
-Selection Sort -
--> Sorts an array by repeatedly finding the smallest element (considering ascending order) from the unsorted part and putting it at the beginning.
--> In place sort 
--> Never makes more than O(n) swaps. Useful when memory write is costly operation.
--> Time Complexity - O(n^2)
+Selection Sort - Sorts an array by repeatedly finding the smallest element (considering ascending order) 
+from the unsorted part and putting it at the beginning.
+
+Never makes more than O(n) swaps. Useful when memory write is costly operation.
+
+Time Complexity - O(n^2)
 '''
 def selectionSort(list):
     for i in range(len(list)-1):
