@@ -1,6 +1,7 @@
 '''
-Bubble Sort - * Repeatedly swapping the adjacent elements if they are in wrong order.
-* Time Complexity - 
+Bubble Sort - Repeatedly swapping the adjacent elements if they are in wrong order.
+
+Time Complexity - 
   Worst Case O(n^2) - When array is reverse sorted.
   Best Case O(n) - When array is already sorted.
 '''
