@@ -1,1 +1,1 @@
-DFS and BFS traversal on a graph using adjacency list representation.
+DFS and BFS traversal on an undirected graph using adjacency list representation.
