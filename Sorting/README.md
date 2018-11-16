@@ -4,3 +4,4 @@ Practice Sorting Algorithms -
 - Merge Sort
 - Heap Sort
 - Quick Sort
+- Radix Sort
