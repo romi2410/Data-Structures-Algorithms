@@ -40,7 +40,6 @@ public class Hash {
                 hashTable = temp;
                 System.out.println("-------------------------------------------------------");
                 System.out.println("Rehashing completed.");
-
             }
         }
         
@@ -50,7 +49,6 @@ public class Hash {
             System.out.println(i+"\t"+hashTable[i]);
         }
         System.out.println("Total number of collisions - "+ totalCollisions);
-        
     }
     
     int add (String word, int hashTableSize, String[] hashTable) {
@@ -60,7 +58,6 @@ public class Hash {
         //Hash function - Calculates index by adding ascii values of all characters in the string
         int key = getKey(word);
         int index = key % hashTableSize;
-        
         System.out.println("\n"+ word + " will be placed at index "+ index + ".");
         
         //Collision Resolution using Quadratic Probing
@@ -88,7 +85,6 @@ public class Hash {
             ascii = (int)c;
             key += ascii;
         }
-        
         return key;
     }
     
@@ -103,10 +99,6 @@ public class Hash {
         returnValues[0] = probe;
         returnValues[1] = probeNumber;
         return returnValues;
-    }
-    
-    double calculateLoadFactor(int noOfElements, int hashTableSize){
-        return (noOfElements / hashTableSize);
     }
     
     int getNextPrimeNumber(int hashTableSize) {
