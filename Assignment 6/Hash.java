@@ -34,7 +34,7 @@ public class Hash {
                 System.out.println("-------------------------------------------------------");
                 //Rehash all existing values in hashTable
                 String[] temp = new String[newhashTableSize];
-                rehashHashTable(hashTable, temp);
+                totalCollisions += rehashHashTable(hashTable, temp);
                 
                 hashTableSize = newhashTableSize;
                 hashTable = temp;
@@ -65,7 +65,7 @@ public class Hash {
             System.out.println("Collision Detected!");
             int[] results = quadraticProbing(index, hashTableSize, hashTable);
             index = results[0];
-            collisions = results[1];   
+            collisions += results[1];   
             System.out.println(word + " will be placed at index "+ index + ".");
         }
             
@@ -106,12 +106,14 @@ public class Hash {
         return Integer.parseInt(b.nextProbablePrime().toString()); 
     }
     
-    void rehashHashTable(String[] oldHashTable, String[] newHashTable){
+    int rehashHashTable(String[] oldHashTable, String[] newHashTable){
+        int collision = 0;
         for (String word : oldHashTable) {
             if (word != null) {
-                add(word, newHashTable.length, newHashTable);
+                collision += add(word, newHashTable.length, newHashTable);
             }
         }
+        return collision;
     }
     
     public static void main(String[] args) {
