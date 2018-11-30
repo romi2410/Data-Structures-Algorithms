@@ -1,0 +1,192 @@
+run:
+
+Apple will be placed at index 2.
+
+Peach will be placed at index 16.
+
+93 45 will be placed at index 28.
+
+Orange will be placed at index 15.
+
+878374 will be placed at index 15.
+Collision Detected!
+878374 will be placed at index 19.
+
+1257 will be placed at index 21.
+
+Coconut will be placed at index 18.
+
+Lemons will be placed at index 2.
+Collision Detected!
+Lemons will be placed at index 3.
+
+Papayas1 will be placed at index 24.
+
+Fig will be placed at index 30.
+
+Plums  will be placed at index 3.
+Collision Detected!
+Plums  will be placed at index 4.
+
+Mangoes will be placed at index 1.
+
+99999999 will be placed at index 22.
+
+Avocado will be placed at index 19.
+Collision Detected!
+Avocado will be placed at index 20.
+
+Cherries will be placed at index 15.
+Collision Detected!
+Cherries will be placed at index 0.
+
+121212 will be placed at index 18.
+Collision Detected!
+121212 will be placed at index 27.
+Hash Table too full!
+Rehashing table values to new hash table with size 37.
+-------------------------------------------------------
+
+Cherries will be placed at index 7.
+
+Mangoes will be placed at index 11.
+
+Apple will be placed at index 17.
+
+Lemons will be placed at index 30.
+
+Plums  will be placed at index 6.
+
+Orange will be placed at index 12.
+
+Peach will be placed at index 0.
+
+Coconut will be placed at index 28.
+
+878374 will be placed at index 29.
+
+Avocado will be placed at index 35.
+
+1257 will be placed at index 22.
+
+99999999 will be placed at index 12.
+Collision Detected!
+99999999 will be placed at index 13.
+
+Papayas1 will be placed at index 28.
+Collision Detected!
+Papayas1 will be placed at index 32.
+
+121212 will be placed at index 1.
+
+93 45 will be placed at index 23.
+
+Fig will be placed at index 19.
+-------------------------------------------------------
+Rehashing completed.
+
+987 will be placed at index 20.
+
+Bananas will be placed at index 26.
+
+Pears will be placed at index 26.
+Collision Detected!
+Pears will be placed at index 27.
+Hash Table too full!
+Rehashing table values to new hash table with size 41.
+-------------------------------------------------------
+
+Peach will be placed at index 30.
+
+121212 will be placed at index 10.
+
+Plums  will be placed at index 28.
+
+Cherries will be placed at index 1.
+
+Mangoes will be placed at index 17.
+
+Orange will be placed at index 30.
+Collision Detected!
+Orange will be placed at index 31.
+
+99999999 will be placed at index 5.
+
+Apple will be placed at index 6.
+
+Fig will be placed at index 32.
+
+987 will be placed at index 4.
+
+1257 will be placed at index 2.
+
+93 45 will be placed at index 40.
+
+Bananas will be placed at index 36.
+
+Pears will be placed at index 15.
+
+Coconut will be placed at index 34.
+
+878374 will be placed at index 38.
+
+Lemons will be placed at index 7.
+
+Papayas1 will be placed at index 30.
+Collision Detected!
+Papayas1 will be placed at index 39.
+
+Avocado will be placed at index 4.
+Collision Detected!
+Avocado will be placed at index 8.
+-------------------------------------------------------
+Rehashing completed.
+
+Apricots will be placed at index 17.
+Collision Detected!
+Apricots will be placed at index 18.
+Hash Table -
+Index	Value
+0	null
+1	Cherries
+2	1257
+3	null
+4	987
+5	99999999
+6	Apple
+7	Lemons
+8	Avocado
+9	null
+10	121212
+11	null
+12	null
+13	null
+14	null
+15	Pears
+16	null
+17	Mangoes
+18	Apricots
+19	null
+20	null
+21	null
+22	null
+23	null
+24	null
+25	null
+26	null
+27	null
+28	Plums 
+29	null
+30	Peach
+31	Orange
+32	Fig
+33	null
+34	Coconut
+35	null
+36	Bananas
+37	null
+38	878374
+39	Papayas1
+40	93 45
+Total number of collisions - 14
+BUILD SUCCESSFUL (total time: 0 seconds)
