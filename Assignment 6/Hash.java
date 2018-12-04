@@ -28,7 +28,7 @@ public class Hash {
             //Keeping check on load factor - should not exceed 0.5
             if (i+1 > MAX_LOAD_FACTOR * hashTableSize) {
                 System.out.println("Hash Table too full!");
-                int newhashTableSize = getNextPrimeNumber(hashTableSize);
+                int newhashTableSize = getNextPrimeNumber(hashTableSize * 2);
                 
                 System.out.println("Rehashing table values to new hash table with size "+ newhashTableSize + ".");
                 System.out.println("-------------------------------------------------------");
