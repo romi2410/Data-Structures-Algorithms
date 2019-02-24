@@ -1,3 +1,9 @@
+"""
+Problem Statement -
+Write a function that takes two parameters n and k and returns the value of binomial coefficient C(n, k).
+
+"""
+
 def binomialCoeffRecursive(n, k):# Time Complexity - exponential
     #Base Cases
     if n == k or k == 0:
