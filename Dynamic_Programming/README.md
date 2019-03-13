@@ -7,3 +7,9 @@
   2. Bottom-Up -
   Sort the subproblems by size and solve them in size order, smallest first. When solving a particular subproblem, we have already solved all of the smaller subproblems its solution depends upon, and we have saved their solutions. This approach is much better because of less overhead of recursive calls.
   
+- The problem must have two properties in order for DP to apply -
+  1. Optimal Substructure -
+  Optimal solution to the problem contains within it optimal solution to subproblems.
+  
+  2. Overlapping Subproblems -
+  An algorithm revists the same problem repeatedly.
