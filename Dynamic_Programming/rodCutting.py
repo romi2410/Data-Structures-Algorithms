@@ -12,7 +12,7 @@ def recursiveCutRod(price, n):
     if n == 0:
         return 0
     optimalPrice = -sys.maxsize-1
-    for i in range(1, n):
+    for i in range(n):
         optimalPrice = max(optimalPrice, price[i] + recursiveCutRod(price, n-i-1))
     return optimalPrice
 
